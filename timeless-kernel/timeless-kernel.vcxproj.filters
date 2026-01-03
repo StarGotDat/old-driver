@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="timeless.cpp" />
+    <ClCompile Include="oxorany.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="oxorany_include.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="cleaner.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofer.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="encrypt">
+      <UniqueIdentifier>{7cb3d070-45a1-45f6-96ec-964d8ab4cdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="custom">
+      <UniqueIdentifier>{2f640223-a4da-46a1-8188-d101d1a98c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{27df9162-12ff-4327-977b-87bbe675c3f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="module.asm">
+      <Filter>custom</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
